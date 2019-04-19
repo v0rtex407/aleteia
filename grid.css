@@ -8,6 +8,7 @@ body {
     display: grid;
     width: 83%;
     margin-left: 17%;
+    position:fixed;
     -ms-grid-rows: 100vh;
     grid-template-rows: 100vh;
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -44,4 +45,17 @@ body {
     -ms-grid-column: 4;
     grid-area: aside;
     background: yellow;
+}
+
+.container2 {
+    display: -ms-grid;
+    display: grid;
+    width: 83%;
+    margin-left: 17%;
+    margin-top:150px;
+    -ms-grid-rows: calc(100vh - 150px);
+    grid-template-rows: calc(100vh - 150px);
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "article article article aside";
 }
