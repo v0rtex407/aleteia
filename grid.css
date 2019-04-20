@@ -32,7 +32,7 @@ li:hover {
     cursor: pointer;
 }
 
-.container1 {
+.container2 {
     display: -ms-grid;
     display: grid;
     width: 83%;
