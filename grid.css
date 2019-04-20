@@ -33,7 +33,7 @@ body {
 
 .sidebar {
     width: 17%;
-    height: calc(100vh - 110px);
+    height: 100vh;
     background-color: #E8CFC2;
     box-shadow: 3px 1px 9px black;
     position: fixed;
