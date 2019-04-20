@@ -1,3 +1,8 @@
+@font-face {
+    font-family:'Ubuntu';
+    src:url("https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfw72.woff2");
+}
+
 body {
     margin: 0;
     padding: 0
@@ -48,4 +53,29 @@ body {
     -ms-grid-column: 4;
     grid-area: aside;
     background: yellow;
+}
+
+.flex-container {
+    display:flex;
+    margin:20px 0 0 100px;
+}
+
+li {
+    padding:6px;
+    font-size:16px;
+    border-radius:8px;
+    margin:0 8px 0 8px;
+    display:inline-block;
+    font-family:Ubuntu;
+    color:#FFE8F6;
+    letter-spacing:-1px;
+}
+
+li:hover {
+    background-color:#569CFF;
+    cursor:pointer;
+}
+
+ul {
+    list-style-type:none;height:18.4px;margin:20px 0 0 0;padding-left:15px;display:inline-block
 }
