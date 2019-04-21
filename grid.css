@@ -65,7 +65,7 @@ li {
 
 .ul2 {
     list-style-type: none;
-    margin: 20px 0 0 80px;
+    margin: 4px 0 0 0;
     padding-left: 0;
     display: flex;
     align-items:center
