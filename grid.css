@@ -37,8 +37,7 @@ input[type=search] {
 }
 
 input[type=search]:focus {
-    box-shadow: 0px 0px 1px 1px blue,
-    0px 0px 2px 2px #21D6FF;
+    box-shadow: 0px 0px 1px 1px blue, 0px 0px 2px 2px #21D6FF;
 }
 
 li {
@@ -68,7 +67,7 @@ li {
     margin: 4px 0 0 0;
     padding-left: 0;
     display: flex;
-    align-items:center
+    align-items: center
 }
 
 .ul2 > li:hover {
@@ -125,12 +124,12 @@ li {
 .flex-container {
     display: flex;
     margin: 25px 0 0 50px;
-    align-items:center;
+    align-items: center;
     justify-content: space-evenly;
 }
 
 .logo {
     margin-top: -10px;
-    width:250px;
-    height:63.41px;
+    width: 250px;
+    height: 63.41px;
 }
