@@ -67,7 +67,8 @@ li {
     list-style-type: none;
     margin: 20px 0 0 80px;
     padding-left: 0;
-    display: inline-block
+    display: flex;
+    align-items:center
 }
 
 .ul2 > li:hover {
