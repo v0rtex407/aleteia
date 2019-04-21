@@ -32,10 +32,8 @@ input[type=search] {
     height: 20px;
     width: 400px;
     align-self: center;
-    margin-top: 9px;
     border-radius: 8px;
     padding: 0 0 0 10px;
-    margin-left: 80px
 }
 
 input[type=search]:focus {
@@ -56,8 +54,7 @@ li {
 
 .ul1 {
     list-style-type: none;
-    margin: 20px 0 0 0;
-    padding-left: 15px;
+    padding-left: 0;
     display: inline-block
 }
 
@@ -69,7 +66,7 @@ li {
 .ul2 {
     list-style-type: none;
     margin: 20px 0 0 80px;
-    padding-left: 15px;
+    padding-left: 0;
     display: inline-block
 }
 
@@ -126,5 +123,13 @@ li {
 
 .flex-container {
     display: flex;
-    margin: 20px 0 0 100px;
+    margin: 25px 0 0 50px;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    margin-top: -10px;
+    width:250px;
+    height:63.41px;
 }
