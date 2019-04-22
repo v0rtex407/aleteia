@@ -135,22 +135,28 @@ li {
 }
 
 .mail-reverse {
-margin-left:-30px;
-opacity:0
+    margin-left: -30px;
+    opacity: 0
 }
 
 .mail-reverse1:hover > .mail-reverse {
-opacity:100}
+    opacity: 100
+}
 
 .star-reverse {
     margin-left: -23.05px;
-    opacity: 0}
+    opacity: 0
+}
 
 .star-reverse1:hover > .star-reverse {
-opacity: 100
+    opacity: 100
 }
+
 .chat-reverse {
-margin-left: -22.3333px;opacity: 0}
+    margin-left: -22.3333px;
+    opacity: 0
+}
 
 .chat-reverse1:hover > .chat-reverse {
-opacity:100}
+    opacity: 100
+}
