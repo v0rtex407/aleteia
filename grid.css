@@ -62,7 +62,7 @@ li {
     cursor: pointer;
 }
 
-.ul1 > a:active {
+.ul1 > a:link {
     text-decoration:none;
     color:white;
 }
