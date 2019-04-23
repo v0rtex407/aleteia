@@ -31,13 +31,16 @@ body {
 input[type=search] {
     height: 20px;
     width: 400px;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     border-radius: 8px;
     padding: 0 0 0 10px;
 }
 
 input[type=search]:focus {
-    box-shadow: 0px 0px 1px 1px blue, 0px 0px 2px 2px #21D6FF;
+    -webkit-box-shadow: 0px 0px 1px 1px blue, 0px 0px 2px 2px #21D6FF;
+            box-shadow: 0px 0px 1px 1px blue, 0px 0px 2px 2px #21D6FF;
 }
 
 .ul1 {
@@ -76,8 +79,12 @@ ul.ul1 > a:visited {
     list-style-type: none;
     margin: 4px 0 0 0;
     padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center
 }
 
 .ul2 > a:hover {
@@ -94,12 +101,13 @@ ul.ul1 > a:visited {
     grid-template-rows: calc(100vh - 110px);
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "article article article aside";
+        grid-template-areas: "article article article aside";
 }
 
 .header {
     background-color: #3F3834;
-    box-shadow: 1px 3px 5px 1px black;
+    -webkit-box-shadow: 1px 3px 5px 1px black;
+            box-shadow: 1px 3px 5px 1px black;
     height: 110px;
     width: 100%;
     top: 0;
@@ -111,7 +119,8 @@ ul.ul1 > a:visited {
     width: 17%;
     height: calc(100vh - 110px);
     background-color: #E8CFC2;
-    box-shadow: 3px 1px 9px black;
+    -webkit-box-shadow: 3px 1px 9px black;
+            box-shadow: 3px 1px 9px black;
     position: fixed;
     top: 110px;
 }
@@ -132,10 +141,16 @@ ul.ul1 > a:visited {
 }
 
 .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 25px 0 0 15px;
-    align-items: center;
-    justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 
 .logo {
@@ -149,25 +164,31 @@ ul.ul1 > a:visited {
 }
 
 .mail-reverse {
-    filter: invert(0)
+    -webkit-filter: invert(0);
+            filter: invert(0)
 }
 
 .mail-reverse1:hover > li img.mail-reverse {
-    filter: invert(100%)
+    -webkit-filter: invert(100%);
+            filter: invert(100%)
 }
 
 .star-reverse {
-    filter: invert(0)
+    -webkit-filter: invert(0);
+            filter: invert(0)
 }
 
 .star-reverse1:hover > li img.star-reverse {
-    filter: invert(100%)
+    -webkit-filter: invert(100%);
+            filter: invert(100%)
 }
 
 .chat-reverse {
-    filter: invert(0)
+    -webkit-filter: invert(0);
+            filter: invert(0)
 }
 
 .chat-reverse1:hover > li img.chat-reverse {
-    filter: invert(100%)
+    -webkit-filter: invert(100%);
+            filter: invert(100%)
 }
