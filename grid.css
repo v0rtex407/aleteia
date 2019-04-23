@@ -1,21 +1,13 @@
-/* Smartphones (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* Styles */
-}
-
-
-/* Smartphones (landscape) ----------- */
-
-@media only screen and (min-width: 321px) {
-    /* Styles */
-}
-
-
-/* Smartphones (portrait) ----------- */
-
-@media only screen and (max-width: 320px) {
-    /* Styles */
+@media only screen and (max-width: 393px) {
+  ul.ul1,
+  ul.ul2,
+  div.sidebar {
+    display: none;
+  }
+  div.container2 {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 @font-face {
@@ -28,7 +20,7 @@ body {
     padding: 0
 }
 
-input[type=search] {
+input[type="search"] {
     height: 20px;
     width: 400px;
     -ms-flex-item-align: center;
@@ -38,7 +30,7 @@ input[type=search] {
     padding: 0 0 0 10px;
 }
 
-input[type=search]:focus {
+input[type="search"]:focus {
     -webkit-box-shadow: 0px 0px 1px 1px blue, 0px 0px 2px 2px #21D6FF;
             box-shadow: 0px 0px 1px 1px blue, 0px 0px 2px 2px #21D6FF;
 }
