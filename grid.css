@@ -62,7 +62,7 @@ li {
     cursor: pointer;
 }
 
-ul.ul1 > li a {
+ul.ul1 > a {
     text-decoration:none;
     color: white;
     padding: 6px;
