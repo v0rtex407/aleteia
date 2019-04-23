@@ -62,6 +62,11 @@ li {
     cursor: pointer;
 }
 
+.ul1 > a:active {
+    text-decoration:none;
+    color:white;
+]
+
 .ul2 {
     list-style-type: none;
     margin: 4px 0 0 0;
