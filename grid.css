@@ -65,6 +65,14 @@ li {
 ul.ul1 > li a {
     text-decoration:none;
     color: white;
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin: 0 8px 0 8px;
+    display: inline-block;
+    font-family: Ubuntu;
+    color: #FFE8F6;
+    letter-spacing: -1px;
 }
 
 ul.ul1 > a:visited {
