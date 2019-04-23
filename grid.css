@@ -67,6 +67,12 @@ ul.ul1 > li a {
     color: white;
 }
 
+ul.ul1 > li a:visited {
+    text-decoration:none;
+    color: white;
+    border:0
+}
+
 .ul2 {
     list-style-type: none;
     margin: 4px 0 0 0;
