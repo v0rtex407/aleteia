@@ -57,7 +57,7 @@ li {
     display: inline-block
 }
 
-.ul1 > li:hover {
+.ul1 > a:hover {
     background-color: #569CFF;
     cursor: pointer;
 }
@@ -67,7 +67,7 @@ ul.ul1 > li a {
     color: white;
 }
 
-ul.ul1 > li a:visited {
+ul.ul1 > a:visited {
     text-decoration:none;
     color: white;
     border:0
@@ -81,7 +81,7 @@ ul.ul1 > li a:visited {
     align-items: center
 }
 
-.ul2 > li:hover {
+.ul2 > a:hover {
     cursor: pointer;
 }
 
