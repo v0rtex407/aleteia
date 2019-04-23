@@ -147,7 +147,7 @@ ul.ul1 > a:visited {
     filter: invert(0)
 }
 
-.mail-reverse1:hover > li img.mail-reverse{
+.mail-reverse1:hover > li img.mail-reverse {
     filter: invert(100%)
 }
 
@@ -155,7 +155,7 @@ ul.ul1 > a:visited {
     filter: invert(0)
 }
 
-.star-reverse1:hover > li img.star-reverse{
+.star-reverse1:hover > li img.star-reverse {
     filter: invert(100%)
 }
 
