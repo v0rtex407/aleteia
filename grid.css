@@ -62,6 +62,7 @@ ul.ul1 > a {
     font-family: Ubuntu;
     color: #FFE8F6;
     letter-spacing: -1px;
+    outline: none
 }
 
 
@@ -76,6 +77,7 @@ ul.ul2 > a {
     font-family: Ubuntu;
     color: #FFE8F6;
     letter-spacing: -1px;
+    outline: none
 }
 
 ul.ul1 > a:visited {
