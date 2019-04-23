@@ -143,6 +143,10 @@ ul.ul1 > a:visited {
     height: 63.41px;
 }
 
+.logo-link {
+    outline: none
+}
+
 .mail-reverse {
     filter: invert(0)
 }
