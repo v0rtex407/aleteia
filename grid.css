@@ -40,17 +40,6 @@ input[type=search]:focus {
     box-shadow: 0px 0px 1px 1px blue, 0px 0px 2px 2px #21D6FF;
 }
 
-li {
-    padding: 6px;
-    font-size: 16px;
-    border-radius: 6px;
-    margin: 0 8px 0 8px;
-    display: inline-block;
-    font-family: Ubuntu;
-    color: #FFE8F6;
-    letter-spacing: -1px;
-}
-
 .ul1 {
     list-style-type: none;
     padding-left: 0;
