@@ -33,9 +33,6 @@
 
   ul.nav-bar li {
     display: inline-block;
-    background-clip: padding-box;
-    -moz-background-clip: padding-box;
-    -webkit-background-clip: padding-box;
   }
 
   img.magnifier {
@@ -53,9 +50,9 @@
   ul.nav-bar a {
     display: inline-block;
     font-family: Ubuntu;
-    background-clip: padding-box;
-    -moz-background-clip: padding-box;
-    -webkit-background-clip: padding-box;
+    background-clip: content-box;
+    -moz-background-clip: content-box;
+    -webkit-background-clip: content-box;
     text-decoration: none;
     color: black;
   }
