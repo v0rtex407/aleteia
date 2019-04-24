@@ -1,4 +1,4 @@
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 900px) {
   body {
     background-color: #cacaca;
   }
@@ -31,6 +31,10 @@
     height: auto;
   }
 
+  ul.nav-bar li {
+    display: inline-block;
+  }
+
   img.magnifier {
     display: inline-block;
   }
@@ -43,18 +47,31 @@
     justify-content: space-around;
   }
 
-  ul.nav-bar li {
+  ul.nav-bar a {
     display: inline-block;
     font-family: Ubuntu;
     background-clip: padding-box;
     -moz-background-clip: padding-box;
     -webkit-background-clip: padding-box;
+    text-decoration: none;
+    color: black;
   }
 
-  li.home {
+  .home {
+    padding: 9px calc((33.333333% - 46.6px) / 2) 9px
+      calc((33.333333% - 46.6px) / 2);
+  }
+
+  .home-on {
     border-bottom: 4px rgb(126, 51, 231) inset;
     padding: 9px calc((33.333333% - 46.6px) / 2) 9px
       calc((33.333333% - 46.6px) / 2);
+  }
+
+  .home-courses {
+    padding: 9px calc((33.333333% - 46.6px) / 2) 9px
+      calc((33.333333% - 46.6px) / 2);
+    border-right: 1px rgba(63, 56, 52, 0.3) inset;
   }
 
   .courses {
@@ -64,9 +81,27 @@
       calc((33.333333% - 70.08px) / 2);
   }
 
+  .courses-on {
+    padding: 9px calc((33.333333% - 70.08px) / 2) 9px
+      calc((33.333333% - 70.08px) / 2);
+    border-bottom: 4px rgb(126, 51, 231) inset;
+  }
+
   .profile {
     padding: 9px calc((33.333333% - 63.2px) / 2) 9px
       calc((33.333333% - 63.2px) / 2);
+  }
+
+  .profile-on {
+    padding: 9px calc((33.333333% - 63.2px) / 2) 9px
+      calc((33.333333% - 63.2px) / 2);
+    border-bottom: 4px rgb(126, 51, 231) inset;
+  }
+
+  .profile-courses {
+    padding: 9px calc((33.333333% - 63.2px) / 2) 9px
+      calc((33.333333% - 63.2px) / 2);
+    border-left: 1px rgba(63, 56, 52, 0.3) inset;
   }
 }
 
@@ -129,7 +164,6 @@ ul.ul2 > a {
   margin: 0 8px 0 8px;
   display: inline-block;
   font-family: Ubuntu;
-  color: #ffe8f6;
   letter-spacing: -1px;
   outline: none;
 }
@@ -264,4 +298,43 @@ ul.ul1 > a:visited {
 
 .nav-bar li {
   display: none;
+}
+
+a.courses-pc {
+  background-color: #569cff;
+}
+
+a.profile-pc {
+  background-color: #569cff;
+}
+
+a.info {
+  background-color: #569cff;
+}
+
+a.blog {
+  background-color: #569cff;
+}
+
+a.news {
+  background-color: #569cff;
+}
+
+a.help {
+  background-color: #569cff;
+}
+
+.mail {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.star {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.chat {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
