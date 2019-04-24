@@ -50,9 +50,6 @@
   ul.nav-bar a {
     display: inline-block;
     font-family: Ubuntu;
-    background-clip: padding-box;
-    -moz-background-clip: padding-box;
-    -webkit-background-clip: padding-box;
     text-decoration: none;
     color: black;
   }
@@ -72,6 +69,9 @@
     padding: 9px calc((33.333333% - 46.6px) / 2) 9px
       calc((33.333333% - 46.6px) / 2);
     border-right: 1px rgba(63, 56, 52, 0.3) inset;
+    background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
   }
 
   .courses {
@@ -102,6 +102,9 @@
     padding: 9px calc((33.333333% - 63.2px) / 2) 9px
       calc((33.333333% - 63.2px) / 2);
     border-left: 1px rgba(63, 56, 52, 0.3) inset;
+    background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
   }
 }
 
