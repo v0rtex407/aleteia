@@ -1,4 +1,8 @@
 @media only screen and (max-width: 393px) {
+  body {
+    background-color: #cacaca;
+  }
+
   input[type="search"],
   ul.ul1,
   ul.ul2,
@@ -7,11 +11,7 @@
   }
 
   div.container2 {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 111.2px;
-    -ms-grid-rows: calc(100vh - 111.2px);
-    grid-template-rows: calc(100vh - 111.2px);
+    display: none;
   }
 
   div.header {
@@ -20,6 +20,8 @@
 
   div.flex-container {
     margin: 9.65px 25.2px 0 13.2px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 
@@ -34,22 +36,37 @@
   }
 
   ul.nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
   }
 
   ul.nav-bar li {
     display: inline-block;
     font-family: Ubuntu;
-    padding: 9px 36px 9px 36px;
-    border-left: 1px rgba(63, 56, 52, 0.3) inset;
     background-clip: padding-box;
     -moz-background-clip: padding-box;
     -webkit-background-clip: padding-box;
   }
 
-  .home {
-    border-bottom: 4px #7E33E7 inset;
+  li.home {
+    border-bottom: 4px rgb(126, 51, 231) inset;
+    padding: 9px calc((33.333333% - 46.6px) / 2) 9px
+      calc((33.333333% - 46.6px) / 2);
+  }
+
+  .courses {
+    border-left: 1px rgba(63, 56, 52, 0.3) inset;
+    border-right: 1px rgba(63, 56, 52, 0.3) inset;
+    padding: 9px calc((33.333333% - 70.08px) / 2) 9px
+      calc((33.333333% - 70.08px) / 2);
+  }
+
+  .profile {
+    padding: 9px calc((33.333333% - 63.2px) / 2) 9px
+      calc((33.333333% - 63.2px) / 2);
   }
 }
 
