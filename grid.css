@@ -34,7 +34,7 @@
   }
 
   ul.nav-bar {
-    display: none;
+    display: flex;
     justify-content: space-around;
   }
 
