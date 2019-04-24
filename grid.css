@@ -33,6 +33,9 @@
 
   ul.nav-bar li {
     display: inline-block;
+    background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
   }
 
   img.magnifier {
