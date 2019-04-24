@@ -71,12 +71,12 @@
   .home-courses {
     padding: 9px calc((33.333333% - 46.6px) / 2) 9px
       calc((33.333333% - 46.6px) / 2);
-    border-right: 1px #AF9C92 solid;
+    border-right: 1px rgba(63, 56, 52, 0.3) solid;
   }
 
   .courses {
-    border-left: 1px  #AF9C92 solid;
-    border-right: 1px #AF9C92 solid;
+    border-left: 1px rgba(63, 56, 52, 0.3) solid;
+    border-right: 1px rgba(63, 56, 52, 0.3) solid;
     padding: 9px calc((33.333333% - 70.08px) / 2) 9px
       calc((33.333333% - 70.08px) / 2);
   }
@@ -101,7 +101,7 @@
   .profile-courses {
     padding: 9px calc((33.333333% - 63.2px) / 2) 9px
       calc((33.333333% - 63.2px) / 2);
-    border-left: 1px #AF9C92 solid;
+    border-left: 1px rgba(63, 56, 52, 0.3) solid;
   }
 }
 
