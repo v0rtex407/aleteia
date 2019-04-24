@@ -50,9 +50,9 @@
   ul.nav-bar a {
     display: inline-block;
     font-family: Ubuntu;
-    background-clip: content-box;
-    -moz-background-clip: content-box;
-    -webkit-background-clip: content-box;
+    background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
     text-decoration: none;
     color: black;
   }
