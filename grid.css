@@ -9,9 +9,9 @@
   div.container2 {
     width: 100%;
     margin-left: 0;
-    margin-top: 70px;
-    -ms-grid-rows: calc(100vh - 129.2px);
-    grid-template-rows: calc(100vh - 129.2px);
+    margin-top: 111.2px;
+    -ms-grid-rows: calc(100vh - 111.2px);
+    grid-template-rows: calc(100vh - 111.2px);
   }
 
   div.header {
