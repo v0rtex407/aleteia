@@ -55,19 +55,19 @@
   }
 
   .home {
-    padding: 9px calc((33.333333% - 46.6px) / 2) 9px
-      calc((33.333333% - 46.6px) / 2);
+    padding: 9px calc((33.333333% - 66.6px) / 2) 9px
+      calc((33.333333% - 66.6px) / 2);
   }
 
   .home-on {
     border-bottom: 4px rgb(126, 51, 231) inset;
-    padding: 9px calc((33.333333% - 46.6px) / 2) 9px
-      calc((33.333333% - 46.6px) / 2);
+    padding: 9px calc((33.333333% - 66.6px) / 2) 9px
+      calc((33.333333% - 66.6px) / 2);
   }
 
   .home-courses {
-    padding: 9px calc((33.333333% - 46.6px) / 2) 9px
-      calc((33.333333% - 46.6px) / 2);
+    padding: 9px calc((33.333333% - 66.6px) / 2) 9px
+      calc((33.333333% - 66.6px) / 2);
     border-right: 1px rgba(63, 56, 52, 0.3) inset;
     background-clip: padding-box;
     -moz-background-clip: padding-box;
@@ -99,8 +99,8 @@
   }
 
   .profile-courses {
-    padding: 9px calc((33.333333% - 63.2px) / 2) 9px
-      calc((33.333333% - 63.2px) / 2);
+    padding: 9px calc((33.333333% - 66.2px) / 2) 9px
+      calc((33.333333% - 66.2px) / 2);
     border-left: 1px rgba(63, 56, 52, 0.3) inset;
     background-clip: padding-box;
     -moz-background-clip: padding-box;
