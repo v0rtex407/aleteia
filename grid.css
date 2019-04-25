@@ -1,4 +1,4 @@
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) and (min-width:315px) {
   body {
     background-color: #cacaca;
   }
@@ -58,19 +58,19 @@
   }
 
   .home {
-    padding: 9px calc((33.333333% - 46.6px) / 2) 9px
-      calc((33.333333% - 46.6px) / 2);
+    padding: 9px calc((33.333333% - 46.8px) / 2) 9px
+      calc((33.333333% - 46.8px) / 2);
   }
 
   .home-on {
     border-bottom: 4px rgb(126, 51, 231) inset;
-    padding: 9px calc((33.333333% - 46.6px) / 2) 9px
-      calc((33.333333% - 46.6px) / 2);
+    padding: 9px calc((33.333333% - 46.8px) / 2) 9px
+      calc((33.333333% - 46.8px) / 2);
   }
 
   .home-courses {
-    padding: 9px calc((33.333333% - 46.6px) / 2) 9px
-      calc((33.333333% - 46.6px) / 2);
+    padding: 9px calc((33.333333% - 46.8px) / 2) 9px
+      calc((33.333333% - 46.8px) / 2);
     border-right: 1px rgba(63, 56, 52, 0.3) solid;
   }
 
@@ -88,19 +88,19 @@
   }
 
   .profile {
-    padding: 9px calc((33.333333% - 63.2px) / 2) 9px
-      calc((33.333333% - 63.2px) / 2);
+    padding: 9px calc((33.333333% - 61.9px) / 2) 9px
+      calc((33.333333% - 62.9px) / 2);
   }
 
   .profile-on {
-    padding: 9px calc((33.333333% - 63.2px) / 2) 9px
-      calc((33.333333% - 63.2px) / 2);
+    padding: 9px calc((33.333333% - 61.9px) / 2) 9px
+      calc((33.333333% - 62.9px) / 2);
     border-bottom: 4px rgb(126, 51, 231) inset;
   }
 
   .profile-courses {
-    padding: 9px calc((33.333333% - 63.2px) / 2) 9px
-      calc((33.333333% - 63.2px) / 2);
+    padding: 9px calc((33.333333% - 61.9px) / 2) 9px
+      calc((33.333333% - 62.9px) / 2);
     border-left: 1px rgba(63, 56, 52, 0.3) solid;
   }
 }
