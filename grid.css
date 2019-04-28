@@ -17,7 +17,6 @@
 
   input[type="search"],
   ul.ul1,
-  ul.ul2,
   div.sidebar {
     display: none;
   }
@@ -73,6 +72,10 @@
     -moz-background-clip: padding-box;
   }
 
+  ul.ul2 {
+    margin-left:30px
+  }
+
   .home {
     padding: 9px calc((33.333333vw - 46.8px) / 2) 9px
       calc((33.333333vw - 46.8px) / 2);
@@ -118,6 +121,12 @@
     padding: 9px calc((33.333333vw - 61.9px) / 2) 9px
       calc((33.333333vw - 62.9px) / 2);
     border-left: 1px rgba(63, 56, 52, 0.3) solid;
+  }
+}
+
+@media only screen and (max-width:585px) {
+    #none {
+    display:none
   }
 }
 
