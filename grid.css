@@ -1,3 +1,15 @@
+@media only screen and (max-width: 1183px) {
+  input[type="search"] {
+    display: none;
+  }
+
+  img.magnifier2 {
+    display: inline-block;
+    height: 19.5px;
+    width: auto;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   body {
     background-color: #cacaca;
@@ -39,6 +51,10 @@
     display: inline-block;
   }
 
+  img.magnifier2 {
+    display: none
+  }
+
   ul.nav-bar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -54,7 +70,7 @@
     color: black;
     background-clip: padding-box;
     -webkit-background-clip: padding-box;
-    -moz-background-clip: padding-box
+    -moz-background-clip: padding-box;
   }
 
   .home {
@@ -117,7 +133,7 @@ body {
 
 input[type="search"] {
   height: 20px;
-  width: 400px;
+  width: 26.3%;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
@@ -284,6 +300,10 @@ ul.ul1 > a:visited {
   height: 22px;
   width: auto;
   margin-right: -3px;
+}
+
+.magnifier2 {
+  display:none
 }
 
 .nav-bar {
