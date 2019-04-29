@@ -74,92 +74,92 @@
 
   ul.ul2 {
     margin-left: 30px;
-    margin-top:0
+    margin-top: 0;
   }
 
-  .info {
+  a.info1 {
     padding: 9px calc((33.333333vw - 36.78px) / 2) 9px
       calc((33.333333vw - 36.78px) / 2);
   }
 
-  .info-on {
+  a.info-on {
     border-bottom: 4px rgb(126, 51, 231) inset;
     padding: 9px calc((33.333333vw - 36.78px) / 2) 9px
-      calc((33.333333vw - 46.8px) / 2);
+      calc((33.333333vw - 36.78px) / 2);
   }
 
-  .info-news {
+  a.info-news {
     padding: 9px calc((33.333333vw - 36.78px) / 2) 9px
       calc((33.333333vw - 36.78px) / 2);
     border-right: 1px rgba(63, 56, 52, 0.3) solid;
   }
 
-  .news {
+  a.news1 {
     border-left: 1px rgba(63, 56, 52, 0.3) solid;
     border-right: 1px rgba(63, 56, 52, 0.3) solid;
     padding: 9px calc((33.333333vw - 44.16px) / 2) 9px
       calc((33.333333vw - 44.16px) / 2);
   }
 
-  .news-on {
+  a.news-on {
     padding: 9px calc((33.333333vw - 44.16px) / 2) 9px
       calc((33.333333vw - 44.16px) / 2);
     border-bottom: 4px rgb(126, 51, 231) inset;
   }
 
-  .blog {
+  a.blog1 {
     padding: 9px calc((33.333333vw - 40.57px) / 2) 9px
       calc((33.333333vw - 41.57px) / 2);
   }
 
-  .blog-on {
+  a.blog-on {
     padding: 9px calc((33.333333vw - 40.57px) / 2) 9px
       calc((33.333333vw - 41.57px) / 2);
     border-bottom: 4px rgb(126, 51, 231) inset;
   }
 
-  .blog-news {
+  a.blog-news {
     padding: 9px calc((33.333333vw - 40.57px) / 2) 9px
       calc((33.333333vw - 41.57px) / 2);
     border-left: 1px rgba(63, 56, 52, 0.3) solid;
   }
 
-  .box {
+  a.box {
     padding: 9px calc((33.333333vw - 37.13px) / 2) 9px
       calc((33.333333vw - 37.13px) / 2);
   }
 
-  .box-on {
+  a.box-on {
     border-bottom: 4px rgb(126, 51, 231) inset;
     padding: 9px calc((33.333333vw - 37.13px) / 2) 9px
       calc((33.333333vw - 37.13px) / 2);
   }
 
-  .box-goals {
+  a.box-goals {
     padding: 9px calc((33.333333vw - 37.13px) / 2) 9px
       calc((33.333333vw - 37.13px) / 2);
     border-right: 1px rgba(63, 56, 52, 0.3) solid;
   }
 
-  .goals {
+  a.goals {
     border-left: 1px rgba(63, 56, 52, 0.3) solid;
     border-right: 1px rgba(63, 56, 52, 0.3) solid;
     padding: 9px calc((33.333333vw - 50.55px) / 2) 9px
       calc((33.333333vw - 50.55px) / 2);
   }
 
-  .goals-on {
+  a.goals-on {
     padding: 9px calc((33.333333vw - 50.55px) / 2) 9px
       calc((33.333333vw - 50.55px) / 2);
     border-bottom: 4px rgb(126, 51, 231) inset;
   }
 
-  .community {
+  a.community {
     padding: 9px calc((33.333333vw - 39.32px) / 2) 9px
       calc((33.333333vw - 40.32px) / 2);
   }
 
-  .community-on {
+  a.community-on {
     padding: 9px calc((33.333333vw - 39.32px) / 2) 9px
       calc((33.333333vw - 40.32px) / 2);
     border-bottom: 4px rgb(126, 51, 231) inset;
@@ -216,10 +216,16 @@
     padding: 9px calc((33.333333vw - 61.9px) / 2) 9px
       calc((33.333333vw - 62.9px) / 2);
     border-left: 1px rgba(63, 56, 52, 0.3) solid;
-  }
+}
+
+.help-on {
+  padding: 9px calc((100vw - 38.45px) / 2) 9px
+    calc((100vw - 38.45px) / 2);
+  border-bottom: 4px rgb(126, 51, 231) inset;
+}
 
   #none {
-    margin:4px 0 0 0
+    margin: 4px 0 0 0;
   }
 }
 
@@ -396,6 +402,7 @@ ul.ul1 > a:visited {
 .chat-reverse {
   -webkit-filter: invert(0);
   filter: invert(0);
+  height:19.63px
 }
 
 .chat-reverse1:hover > li img.chat-reverse {
