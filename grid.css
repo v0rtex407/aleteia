@@ -216,13 +216,12 @@
     padding: 9px calc((33.333333vw - 61.9px) / 2) 9px
       calc((33.333333vw - 62.9px) / 2);
     border-left: 1px rgba(63, 56, 52, 0.3) solid;
-}
+  }
 
-.help-on {
-  padding: 9px calc((100vw - 38.45px) / 2) 9px
-    calc((100vw - 38.45px) / 2);
-  border-bottom: 4px rgb(126, 51, 231) inset;
-}
+  .help-on {
+    padding: 9px calc((100vw - 38.45px) / 2) 9px calc((100vw - 38.45px) / 2);
+    border-bottom: 4px rgb(126, 51, 231) inset;
+  }
 
   #none {
     margin: 4px 0 0 0;
@@ -359,14 +358,34 @@ ul.ul1 > a:visited {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: article;
-  background: blue;
+  background: #e4cfe6;
+}
+
+.item-a > div {
+  padding: 1vw;
+  background-color: #cca5d4;
+  border-radius: 10px;
+  box-shadow: 0 0 1px 1px inset #a30ea3;
+  margin: 1.9vw 0 0 1.9vw;
+  width: 56vw;
+}
+
+.item-a div h1 {
+  margin: 0;
+  font-size: 25px;
+}
+
+.item-a div p {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  line-height: 140%;
 }
 
 .item-b {
   -ms-grid-row: 1;
   -ms-grid-column: 4;
   grid-area: aside;
-  background: yellow;
+  background: #e4cfe6;
 }
 
 .logo {
@@ -402,7 +421,7 @@ ul.ul1 > a:visited {
 .chat-reverse {
   -webkit-filter: invert(0);
   filter: invert(0);
-  height:19.63px
+  height: 19.63px;
 }
 
 .chat-reverse1:hover > li img.chat-reverse {
