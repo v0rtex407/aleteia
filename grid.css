@@ -263,7 +263,7 @@ input[type="search"]:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 25px 0 0 15px;
+  margin: 5px 0 0 0px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -324,9 +324,9 @@ ul.ul1 > a:visited {
   display: grid;
   width: 83%;
   margin-left: 17%;
-  margin-top: 110px;
-  -ms-grid-rows: calc(100vh - 110px);
-  grid-template-rows: calc(100vh - 110px);
+  margin-top: 70px;
+  -ms-grid-rows: calc(100vh - 70px);
+  grid-template-rows: calc(100vh - 70px);
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas: "article article article aside";
@@ -336,7 +336,7 @@ ul.ul1 > a:visited {
   background-color: #3f3834;
   -webkit-box-shadow: 1px 3px 5px 1px black;
   box-shadow: 1px 3px 5px 1px black;
-  height: 110px;
+  height: 70px;
   width: 100%;
   top: 0;
   position: fixed;
@@ -345,12 +345,12 @@ ul.ul1 > a:visited {
 
 .sidebar {
   width: 17%;
-  height: calc(100vh - 110px);
+  height: calc(100vh - 70px);
   background-color: #e8cfc2;
   -webkit-box-shadow: 3px 1px 9px black;
   box-shadow: 3px 1px 9px black;
   position: fixed;
-  top: 110px;
+  top: 70px;
 }
 
 .item-a {
@@ -389,9 +389,8 @@ ul.ul1 > a:visited {
 }
 
 .logo {
-  margin-top: -6px;
-  width: 250px;
-  height: 63.41px;
+  width: 200px;
+  margin: -2px 0px 0 15px;
 }
 
 .logo-link {
