@@ -223,6 +223,28 @@
     border-bottom: 4px rgb(126, 51, 231) inset;
   }
 
+  div.mobile-interface {
+    display: block;
+    margin: 117.2px 7px 7px 7px;
+  }
+
+  div.mobile-interface div {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px black;
+  }
+
+  div.mobile-interface div h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  div.mobile-interface div p {
+    margin: 10px 0 0 0;
+    line-height: 140%;
+  }
+
   #none {
     margin: 4px 0 0 0;
   }
@@ -386,6 +408,10 @@ ul.ul1 > a:visited {
   -ms-grid-column: 4;
   grid-area: aside;
   background: #e4cfe6;
+}
+
+.mobile-interface {
+  display: none;
 }
 
 .logo {
