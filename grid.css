@@ -285,13 +285,13 @@ input[type="search"]:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 5px 0 0 0px;
+  margin: 5px 1.2vw 0 1.2vw;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-between;
+  -ms-flex-pack: space-between;
+  justify-content: space-between;
 }
 
 .ul1 {
@@ -380,14 +380,14 @@ ul.ul1 > a:visited {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: article;
-  background: #e4cfe6;
+  background: #f8e8fe;
 }
 
 .item-a > div {
   padding: 1vw;
-  background-color: #cca5d4;
-  border-radius: 10px;
-  box-shadow: 0 0 1px 1px inset #a30ea3;
+  background-color: #eed3f4;
+  border-radius: 8px;
+  border: 1px #ecc2ec solid;
   margin: 1.9vw 0 0 1.9vw;
   width: 56vw;
 }
@@ -407,7 +407,7 @@ ul.ul1 > a:visited {
   -ms-grid-row: 1;
   -ms-grid-column: 4;
   grid-area: aside;
-  background: #e4cfe6;
+  background: #f8e8fe;
 }
 
 .mobile-interface {
